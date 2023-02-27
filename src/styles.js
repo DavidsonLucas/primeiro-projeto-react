@@ -118,6 +118,12 @@ export const Space4 = styled.div`
   h3:hover{
     color:#a9baf4 ;
   }
+  @media (max-width:730px){
+    h3{
+        font-size:12px ;
+    }
+   } 
+
 `
 
 
@@ -138,6 +144,8 @@ export const Space3 = styled.div`
         list-style: none;
     
     }
+
+  
 `
 export const Trach = styled(FcEmptyTrash)`
     cursor: pointer;
