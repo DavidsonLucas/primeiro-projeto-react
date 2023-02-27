@@ -31,6 +31,13 @@ export const TodaALista = styled.div`
     &::-webkit-scrollbar-track{
         background: transparent;
     }
+
+    @media (max-width:730px){
+    &{
+        max-width: 90%;
+        
+    }
+   } 
    
 `
 export const Space1 = styled.div`
@@ -48,6 +55,13 @@ export const Input = styled.input`
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
+
+    @media (max-width:730px){
+    &{
+        max-width: 180px;
+        
+    }
+   } 
 `
 
 export const Button = styled.button`
@@ -68,6 +82,13 @@ export const Button = styled.button`
     &:active{
         opacity: .5;
     }
+
+    @media (max-width:730px){
+    &{
+        max-width: 90px;
+        
+    }
+   } 
 `
 
 export const Space2 = styled.div`
